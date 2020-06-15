@@ -4,7 +4,7 @@ def prime?(num)
     return true
   elsif num % 2 == 0
     return false
-  elsif num =< 1
+  elsif num <= 1
     return false
   else
     inc = 5
