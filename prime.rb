@@ -16,6 +16,7 @@ def prime?(num)
     else
       inc += 2
     end
+  end
   return false
   end
 end
