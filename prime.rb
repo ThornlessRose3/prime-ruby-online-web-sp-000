@@ -1,5 +1,7 @@
 # Add  code here!
 def prime?(num)
+  if num
+  
   case num
   when 1
     return true
