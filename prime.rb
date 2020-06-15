@@ -10,12 +10,12 @@ def prime?(num)
   else # if num is 3 or greater, time to interate
     # interate over ranged array, dividing by 3 +2i. if mod i === 0, return false, unless i === num
   inc = 3
-  (3 ..num).collect do |i| {
+  (3 ..num).collect do |i| 
     if i % inc == 0 && inc == num
       return true
     else
       inc += 2
-  }
+  end
   return false
   end
 end
