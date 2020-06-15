@@ -2,7 +2,7 @@
 def prime?(num)
   case num
   when 1 # if num is 1, it is prime
-    return true
+    return false
   when 2 # if num is 2, it is prime
     return true
   when num != 2 && num % 2 === 0 # if num is not 2, but even, it is NOT prime
