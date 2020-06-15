@@ -8,10 +8,10 @@ def prime?(num)
   when num != 2 && num % 2 === 0 # if num is not 2, but even, it is NOT prime
     return true
   else # if num is 3 or greater, time to interate
-    # interate over ranged array, dividing by 3 +2i. if mod i === 0, return false, unless i === num
+    # interate over ranged array, dividing by 3 +2inc. if mod i === 0, return false, unless inc === num
   inc = 3
   (3 ..num).collect do |i| 
-    if i % inc == 0 && inc == num
+    if i % inc === 0 && inc === num
       return true
     else
       inc += 2
