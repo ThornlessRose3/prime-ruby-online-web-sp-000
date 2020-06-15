@@ -3,7 +3,11 @@ def prime?(num)
   case num
   when 1
     return true
-  when num % 2 == 0 
+  when 2
     return true
+  when num % 2 === 0 
+    return false
   else
-  (2..num)
+  (3 ..num)
+  end
+end
