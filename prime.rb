@@ -12,11 +12,11 @@ def prime?(num)
   inc = 3
   (3 ..num).collect do |i| 
     if i % inc == 0 && inc == num
-      return true
+      return false
     else
       inc += 2
     end
   end
-  return false
+  return true
   end
 end
