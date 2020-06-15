@@ -1,3 +1,5 @@
+require '..pry'
+
 # Add  code here!
 def prime?(num)
   case num
@@ -17,6 +19,7 @@ def prime?(num)
       inc += 2
     end
   end
+  binding.pry
   return false
   end
 end
