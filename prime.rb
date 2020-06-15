@@ -1,6 +1,6 @@
 # Add  code here!
 def prime?(num)
-  if num === (1..3)
+  if num === 1 || num === 2 || num === 3
     return true
   elsif num % 2 == 0
     return false
