@@ -15,7 +15,6 @@ def prime?(num)
       return true
     else
       inc += 2
-    end
   }
   return false
   end
