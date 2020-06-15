@@ -10,7 +10,7 @@ def prime?(num)
   else # if num is 3 or greater, time to interate
     # interate over ranged array, dividing by 3 +2inc. if mod i === 0, return false, unless inc === num
   inc = 3
-  (3 ..num).each do |i| 
+  (3..num).each do |i| 
     if i % inc === 0 && inc === num
       return true
     else
